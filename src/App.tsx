@@ -1,11 +1,13 @@
 import React from 'react'
-import ParentComponent from './component/ParentComponent/ParentComponent'
+import ParentComponent from './components/ParentComponent/ParentComponent'
 
 
-const App = () => {
-  return (
-      <ParentComponent />
-  )
+class App extends React.Component {
+  render() {
+      return (
+          <ParentComponent />
+      )
+  }
 }
 
-export default App
+export default App;
